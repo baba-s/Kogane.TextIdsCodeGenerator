@@ -1,0 +1,32 @@
+﻿using System.Collections.Generic;
+using Kogane;
+
+// ReSharper disable PartialTypeWithSinglePart
+// ReSharper disable InconsistentNaming
+
+namespace #NAMESPACE_NAME#
+{
+    /// <summary>
+    /// #CLASS_COMMENT#
+    /// </summary>
+    public static partial class #CLASS_NAME#
+    {
+#PROPERTY_CODE#
+
+        /// <summary>
+        /// #COUNT_COMMENT#
+        /// </summary>
+        public static int Count => #COUNT#;
+
+        /// <summary>
+        /// #ALL_COMMENT#
+        /// </summary>
+        public static IEnumerable<TextId> All
+        {
+            get
+            {
+#ALL_CODE#
+            }
+        }
+    }
+}

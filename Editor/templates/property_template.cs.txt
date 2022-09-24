@@ -1,0 +1,4 @@
+﻿        /// <summary>
+#PROPERTY_COMMENT#
+        /// </summary>
+        public static TextId #PROPERTY_NAME# { get; } = new( "#PROPERTY_VALUE#" );
